@@ -1,0 +1,124 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.date-range {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.date-pickers {
+  display: flex;
+  align-items: center;
+}
+
+.date-picker-style {
+  padding: 6px;
+}
+
+.date-pickers .react-datepicker-wrapper {
+  margin-right: 10px;
+}
+
+.filter-item {
+  margin: 6px;
+  width: 100%;
+  max-width: 200px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 5px;
+  width: 100%;
+}
+
+label#heading {
+  margin-left: 29px;
+}
+
+select {
+  padding: 5px;
+  width: 100%;
+}
+
+.report-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.report-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.report-table th {
+  background-color: #f2f2f2;
+}
+
+.download-button {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Responsive design for laptops */
+@media (max-width: 1200px) {
+  .filter-item {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 992px) {
+  .filter-item {
+    max-width: 160px;
+  }
+
+  .report-table {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter-item {
+    max-width: 140px;
+  }
+
+  .report-table {
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .filter-item {
+    max-width: 120px;
+  }
+
+  .report-table {
+    width: 100%;
+  }
+}
+
+
+.download-button-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: center;
+}

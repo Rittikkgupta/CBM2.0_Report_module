@@ -1,0 +1,14 @@
+.App {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.container > div {
+    flex: 1;
+    margin: 0 1rem;
+}
